@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+#ticker {
+    overflow: hidden;
+    border: 2px solid rgb(95, 42, 240);
+    height: 35px;
+    position: relative;
+    background-color: rgb(157, 252, 255);
+    font-size: 0;
+}
+
+#news {
+    white-space: nowrap;
+    position: absolute;
+    left: 95%;
+    top: 0;
+}
+
+#news a {
+    padding-right: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+#news a:hover {
+    text-decoration: underline;
+    color: blue;
+}
